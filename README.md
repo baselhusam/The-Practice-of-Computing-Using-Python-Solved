@@ -3,7 +3,7 @@
 In this repository I will solve  **_The Practice of Computing Using Python_** book the third edition.
 
 
-<details><summary> Chapter 1  </summary> 
+<h2> <details><summary> Chapter 1  </summary> </h2>
  <p>
 
 The exercises in this chapter focused on <b> `Variables`, `Math`, `Date`, and `Times` </b>
