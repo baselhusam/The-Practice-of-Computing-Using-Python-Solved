@@ -21,6 +21,7 @@ from datetime import date
 ```
 datetime(yy,mm,dd) # to make these numbers in a Time Formula
 ```
+for expanded explanation you can watch this [video](https://www.youtube.com/watch?v=eirjjyP2qcQ)
 
 >2. `realtivedelta` Module
 ```
