@@ -8,7 +8,7 @@ In this repository I will solve  **_The Practice of Computing Using Python_** bo
 The exercises in this chapter focused on <b> `Variables`, `Math`, `Date`, and `Times` </b>
 
 ## The Used Module to solve the exercises for this chapter:
-```
+```python
 from datetime import datetime
 from dateutil import relativedelta
 import calendar
@@ -19,7 +19,7 @@ from datetime import date
 
 
 ->1. `datetime` Module
-```
+```python
 datetime(yy,mm,dd) # to make these numbers in a Time Formula
 ```
 
@@ -29,7 +29,7 @@ for expanded explanation you can watch this [video](https://www.youtube.com/watc
 
 ->2. `realtivedelta` Module
 
-```
+```python
 diff = relativedelta.relativedelta(date1,date2)
 years = diff.year
 months = diff.month
@@ -40,7 +40,7 @@ days = diff.days
 
 
 ->3. `calendar` Module
-```
+```python
 calendar.month(yy,mm)
 #To give you the days for that month
 ```
@@ -48,7 +48,7 @@ for expanded explanation you can watch this [video](https://www.youtube.com/watc
 
 
 ->4. `date` Module
-```
+```python
 day = date.today() # The date for this day
 ```
 
