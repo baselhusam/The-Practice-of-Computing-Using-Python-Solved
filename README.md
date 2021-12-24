@@ -25,6 +25,8 @@ datetime(yy,mm,dd) # to make these numbers in a Time Formula
 
 for expanded explanation you can watch this [video](https://www.youtube.com/watch?v=eirjjyP2qcQ) or you can read the [dictionary](https://docs.python.org/3/library/datetime.html)
 
+
+
 >2. `realtivedelta` Module
 
 ```
@@ -36,12 +38,14 @@ days = diff.days
 ```
 
 
+
 >3. `calendar` Module
 ```
 calendar.month(yy,mm)
 #To give you the days for that month
 ```
 for expanded explanation you can watch this [video](https://www.youtube.com/watch?v=amFOJMmHk8I) or you can read the [dictionary](https://docs.python.org/3/library/calendar.html)
+
 
 >4 `date` Module
 ```
