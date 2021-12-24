@@ -15,7 +15,7 @@ import calendar
 from datetime import date
 ```
 
-## The Used Methods for:
+## The Used Methods for the Modules:
 
 >1. `datetime` Module
 ```
