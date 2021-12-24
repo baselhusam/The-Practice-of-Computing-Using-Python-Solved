@@ -4,6 +4,6 @@ In this repository I will solve  **_The Practice of Computing Using Python_** bo
 
 ## Chapter 1
 
-The exercises in this chapter focused on <b> `Variables`, `Math`, and `Time` </b>
+The exercises in this chapter focused on <b> `Variables`, `Math`, `Date`, and `Times` </b>
 
 
