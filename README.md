@@ -3,19 +3,19 @@
 In this repository I will solve  **_The Practice of Computing Using Python_** book the third edition.
 
 
-<details> <summary> Chapter 1 </summary>
+# <details> <summary> Chapter 1 </summary>
 
 The exercises in this chapter focused on <b> `Variables`, `Math`, `Date`, and `Times` </b>
 
-## <details> <summary> The Used Module to solve the exercises for this chapter: <summary>
+## <details> <summary> The Used Module to solve the exercises for this chapter: </summary>
 ```python
 from datetime import datetime
 from dateutil import relativedelta
 import calendar
 from datetime import date
 ```
-
-## The Used Methods for the Modules:
+     
+ ## <details> <summary> The Used Methods for the Modules: </summary>
 
 
 >1. `datetime` Module
@@ -51,7 +51,7 @@ for expanded explanation you can watch this [video](https://www.youtube.com/watc
 ```python
 day = date.today() # The date for this day
 ```
- 
+    </details>
   </details>
 </details>
 
