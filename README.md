@@ -19,7 +19,7 @@ from datetime import date
 
 >1. `datetime` Module
 ```
-datetime(yy,mm,dd) # to make these numbers in a Time Formula
+datetime(yy,mm,dd) ># to make these numbers in a Time Formula
 ```
 >2. `realtivedelta` Module
 ```
