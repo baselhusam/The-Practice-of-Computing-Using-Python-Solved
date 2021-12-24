@@ -3,7 +3,8 @@
 In this repository I will solve  **_The Practice of Computing Using Python_** book the third edition.
 
 
- <h2> <details> <summary> Chapter 1  </summary> </h2>
+<details><summary> Chapter 1  </summary> 
+ <p>
 
 The exercises in this chapter focused on <b> `Variables`, `Math`, `Date`, and `Times` </b>
 
@@ -51,6 +52,7 @@ for expanded explanation you can watch this [video](https://www.youtube.com/watc
 ```python
 day = date.today() # The date for this day
 ```
+ </p>
 </details>
 
 
