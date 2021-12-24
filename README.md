@@ -15,10 +15,10 @@ import calendar
 from datetime import date
 ```
 
-## The Used Methods for the Modules:
+-## The Used Methods for the Modules:
 
 
->1. `datetime` Module
+->1. `datetime` Module
 ```
 datetime(yy,mm,dd) # to make these numbers in a Time Formula
 ```
@@ -27,7 +27,7 @@ for expanded explanation you can watch this [video](https://www.youtube.com/watc
 
 
 
->2. `realtivedelta` Module
+->2. `realtivedelta` Module
 
 ```
 diff = relativedelta.relativedelta(date1,date2)
@@ -39,7 +39,7 @@ days = diff.days
 
 
 
->3. `calendar` Module
+->3. `calendar` Module
 ```
 calendar.month(yy,mm)
 #To give you the days for that month
@@ -47,7 +47,7 @@ calendar.month(yy,mm)
 for expanded explanation you can watch this [video](https://www.youtube.com/watch?v=amFOJMmHk8I) or you can read the [dictionary](https://docs.python.org/3/library/calendar.html)
 
 
->4. `date` Module
+->4. `date` Module
 ```
 day = date.today() # The date for this day
 ```
