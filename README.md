@@ -2,4 +2,6 @@
 In this repository I will solve  **_The Practice of Computing Using Python_** book the third edition.
 
 
-> Chapter 1
+## Chapter 1
+
+The exercises in this chapter focused on `Variables`, `math` > like square root, and power and so on 
