@@ -9,10 +9,10 @@ The exercises in this chapter focused on <b> `Variables`, `Math`, `Date`, and `T
 
 ## The Used Module to solve the exercises for this chapter:
 ```
->from datetime import datetime
->from dateutil import relativedelta
->import calendar
->from datetime import date
+from datetime import datetime
+from dateutil import relativedelta
+import calendar
+from datetime import date
 ```
 
 ## The Used Methods for the Modules:
