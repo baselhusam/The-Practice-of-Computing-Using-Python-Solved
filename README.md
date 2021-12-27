@@ -56,3 +56,9 @@ day = date.today() # The date for this day
 </details>
 
 
+<h2> <details><summary> Chapter 2  </summary> </h2>
+ 
+ The exercises in this chapter focused on <b> `Control` using `[ if statement ]` , and `loops` using `[ for, and while loop ]`</b>
+
+
+
