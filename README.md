@@ -60,7 +60,7 @@ day = date.today() # The date for this day
  
  ### The Used Methods for each Module:
  
- `Random` Module
+ 1. `Random` Module
  ```python
  import random
  
