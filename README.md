@@ -3,24 +3,19 @@
 In this repository I will solve  **_The Practice of Computing Using Python_** book the third edition.
 
 
-<h2> <details><summary> Chapter 1  </summary> </h2>
+<details><summary> Chapter 1  </summary>
  <p>
 
 The exercises in this chapter focused on <b> `Variables`, `Math`, `Date`, and `Times` </b>
 
-##  The Used Module to solve the exercises for this chapter:
-```python
-from datetime import datetime
-from dateutil import relativedelta
-import calendar
-from datetime import date
-```
-     
- ### The Used Methods for the Modules: 
 
+     
+### The Used Methods for each Module: 
 
 >1. `datetime` Module
 ```python
+from datetime import datetime
+  
 datetime(yy,mm,dd) # to make these numbers in a Time Formula
 ```
 
@@ -31,6 +26,8 @@ for expanded explanation you can watch this [video](https://www.youtube.com/watc
 >2. `realtivedelta` Module
 
 ```python
+from dateutil import relativedelta
+  
 diff = relativedelta.relativedelta(date1,date2)
 years = diff.year
 months = diff.month
@@ -42,6 +39,8 @@ days = diff.days
 
 >3. `calendar` Module
 ```python
+import calendar 
+ 
 calendar.month(yy,mm)
 #To give you the days for that month
 ```
@@ -50,6 +49,8 @@ for expanded explanation you can watch this [video](https://www.youtube.com/watc
 
 >4. `date` Module
 ```python
+from datetime import date
+
 day = date.today() # The date for this day
 ```
  </p>
@@ -58,9 +59,17 @@ day = date.today() # The date for this day
 
 <h2> <details><summary> Chapter 2  </summary> </h2>
  
- The exercises in this chapter focused on <b> `Control` using ```python [if statement] ``` , and `Loops` using `[for, and while loop]`</b>
+ The exercises in this chapter focused on <b> `Control` using `[if statement]` , and `Loops` using `[for, and while loop]`</b>
+ 
+ ### The Used Methods for each Module:
+ 
+ >1. `Random` Module
  ```python
- if statement
+ import random
+ 
+ choices = ['a','b','c']
+ choice = random.choice(choices)
+ # this command chose a random element from a list, in this case it could be (a or b or c)
  ```
 
 
