@@ -3,8 +3,7 @@
 In this repository I will solve  **_The Practice of Computing Using Python_** book the third edition.
 
 
-<details><summary> Chapter 1  </summary>
- <p>
+<h1>  Chapter 1  </h1>
 
 The exercises in this chapter focused on <b> `Variables`, `Math`, `Date`, and `Times` </b>
 
@@ -53,11 +52,9 @@ from datetime import date
 
 day = date.today() # The date for this day
 ```
- </p>
-</details>
+<hr>
 
-
-<details><summary> Chapter 2  </summary>
+ <h1> Chapter 2   </h1>
  
  The exercises in this chapter focused on <b> `Control` using `[if statement]` , and `Loops` using `[for, and while loop]`</b>
  
@@ -71,6 +68,25 @@ day = date.today() # The date for this day
  choice = random.choice(choices)
  # this command chose a random element from a list, in this case it could be (a or b or c)
  ```
+ <hr>
+ 
+ <h1> Chapter 3 </h1>
+ 
+ This Chapter talked about algorithms and how algorithm should be:
+ - Detailed 
+ - Effictive
+ - Specefic 
+ - General Purpose
+ 
+ And the Program should be:
+ - Readable
+ - Robust
+ - Correct
+
+<hr>
+
+<h1> Chapter 4 </h1>
+
 
 
 
