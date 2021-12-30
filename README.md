@@ -12,7 +12,7 @@ The exercises in this chapter focused on <b> `Variables`, `Math`, `Date`, and `T
      
 ### The Used Methods for each Module: 
 
->1. `datetime` Module
+1. `datetime` Module
 ```python
 from datetime import datetime
   
@@ -23,7 +23,7 @@ for expanded explanation you can watch this [video](https://www.youtube.com/watc
 
 
 
->2. `realtivedelta` Module
+2. `realtivedelta` Module
 
 ```python
 from dateutil import relativedelta
@@ -37,7 +37,7 @@ days = diff.days
 
 
 
->3. `calendar` Module
+3. `calendar` Module
 ```python
 import calendar 
  
@@ -47,7 +47,7 @@ calendar.month(yy,mm)
 for expanded explanation you can watch this [video](https://www.youtube.com/watch?v=amFOJMmHk8I) or you can read the [dictionary](https://docs.python.org/3/library/calendar.html)
 
 
->4. `date` Module
+4. `date` Module
 ```python
 from datetime import date
 
@@ -57,13 +57,13 @@ day = date.today() # The date for this day
 </details>
 
 
-<h2> <details><summary> Chapter 2  </summary> </h2>
+<details><summary> Chapter 2  </summary>
  
  The exercises in this chapter focused on <b> `Control` using `[if statement]` , and `Loops` using `[for, and while loop]`</b>
  
  ### The Used Methods for each Module:
  
- >1. `Random` Module
+ `Random` Module
  ```python
  import random
  
