@@ -56,7 +56,7 @@ day = date.today() # The date for this day
 
  <h1> Chapter 2   </h1>
  
- The exercises in this chapter focused on <b> `Control` using `[if statement]` , and `Loops` using `[for, and while loop]`</b>
+ The exercises in this chapter focused on <b> `Control` using [`if statement`] , and `Loops` using [`for, and while loop`]</b>
  
  ### The Used Methods for each Module:
  
