@@ -87,6 +87,34 @@ day = date.today() # The date for this day
 
 <h1> Chapter 4 </h1>
 
+This Chapter focused on `String` and how you can solve problems by manipulatin the string.
+We used a lot of string methods in this chapter, and here is the summary for them.
+<h4> String Methods </h4>
+```python
+string = " Hi, I am using Python "
+char = 'B'
 
+string.capitalize() # Hi, i am using python
+string.upper() # HI, I AM USING PYTHON
+string.lower() # hi, i am using python
+string.replace('i','c') # Hc, I am uscng Python
+string.lstrip() #Hi, I am using Python
+string.rstrip() # Hi, I am using Python
+string.strip() #Hi, I am using Python
+string.count('am') #1
+string.index('u') #10
+string.find('o') #20 
+string.split() #['Hi,', 'I', 'am', 'using', 'Python']
+string.swapcase() # hI, i AM USING pYTHON
+
+char.islower() #False
+char.isupper() #True
+char.swapcase() #b
+char.isspace() #False
+char.isalnum() #True
+char.isdigit() #False
+char.isalpha() #True
+
+```
 
 
