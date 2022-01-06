@@ -126,7 +126,11 @@ string = "Counter module will count anything you want, words for example or char
 print(Counter(string))
 """
 The Output:
-Counter({' ': 15, 'o': 9, 'n': 7, 'r': 7, 't': 6, 'e': 5, 'l': 5, 'a': 5, '.': 5, 'u': 4, 'y': 4, 'm': 3, 'w': 3, 'i': 3, 'c': 3, 'h': 3, 's': 3, 'd': 2, 'g': 2, 'C': 1, ',': 1, 'f': 1, 'x': 1, 'p': 1, 'b': 1, 'A': 1})
+Counter({' ': 15, 'o': 9, 'n': 7, 'r': 7, 't': 6, 'e': 5,
+         'l': 5, 'a': 5, '.': 5, 'u': 4, 'y': 4, 'm': 3, 
+         'w': 3, 'i': 3, 'c': 3, 'h': 3, 's': 3, 'd': 2, 
+         'g': 2, 'C': 1, ',': 1, 'f': 1, 'x': 1, 'p': 1, 
+         'b': 1, 'A': 1})
 """
 
 #if we wanted to count words:
@@ -134,7 +138,9 @@ string = string.split()
 print(Counter(string))
 """
 The Output:
-Counter({'or': 2, 'Counter': 1, 'module': 1, 'will': 1, 'count': 1, 'anything': 1, 'you': 1, 'want,': 1, 'words': 1, 'for': 1, 'example': 1, 'character': 1, 'symbols': 1, '....': 1, 'Anything.': 1})
+Counter({'or': 2, 'Counter': 1, 'module': 1, 'will': 1, 'count': 1, 'anything': 1,
+         'you': 1, 'want,': 1, 'words': 1, 'for': 1, 'example': 1, 'character': 1, 
+         'symbols': 1, '....': 1, 'Anything.': 1})
 """
 ```
 
