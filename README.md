@@ -116,5 +116,49 @@ char.isalnum() #True
 char.isdigit() #False
 char.isalpha() #True
 ```
+### The Used Methods for each Module:
+1. `Counter` Module: 
+    This module is very helpful for counting and showing the result as a `dictiontry`. For Example:
+```python
+from collections import Counter
 
+string = "Counter module will count anything you want, words for example or character or symbols .... Anything."
+print(Counter(string))
+"""
+The Output:
+Counter({' ': 15, 'o': 9, 'n': 7, 'r': 7, 't': 6, 'e': 5, 'l': 5, 'a': 5, '.': 5, 'u': 4, 'y': 4, 'm': 3, 'w': 3, 'i': 3, 'c': 3, 'h': 3, 's': 3, 'd': 2, 'g': 2, 'C': 1, ',': 1, 'f': 1, 'x': 1, 'p': 1, 'b': 1, 'A': 1})
+"""
+
+#if we wanted to count words:
+string = string.split()
+print(Counter(string))
+"""
+The Output:
+Counter({'or': 2, 'Counter': 1, 'module': 1, 'will': 1, 'count': 1, 'anything': 1, 'you': 1, 'want,': 1, 'words': 1, 'for': 1, 'example': 1, 'character': 1, 'symbols': 1, '....': 1, 'Anything.': 1})
+"""
+```
+
+2. `PrettyTable` Module
+    This Module is used for making nice clear tables:
+```python
+from prettytable import PrettyTable
+table = PrettyTable() # To make an empty table
+table.field_names = [] # To add Columns names as a "LIST"
+table.add_row([]) # To add rows as a "LIST"
+print(table)
+```
+
+3. `string` Module
+   Simple method made ready variable which make things easier. Some of them:
+```python
+import string
+
+punc = string.punctuation
+lett = string.printable
+asc = string.ascii_letters
+ascLow = string.ascii_lowercase
+ascUpp = string.ascii_uppercase
+space = string.whitespace
+dig = string.digits
+```
 
