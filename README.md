@@ -90,6 +90,7 @@ day = date.today() # The date for this day
 This Chapter focused on `String` and how you can solve problems by manipulatin the string.
 We used a lot of string methods in this chapter, and here is the summary for them.
 <h4> String Methods </h4>
+
 ```python
 string = " Hi, I am using Python "
 char = 'B'
@@ -114,7 +115,6 @@ char.isspace() #False
 char.isalnum() #True
 char.isdigit() #False
 char.isalpha() #True
-
 ```
 
 
