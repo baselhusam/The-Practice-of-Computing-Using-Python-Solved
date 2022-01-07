@@ -89,7 +89,7 @@ day = date.today() # The date for this day
 
 This Chapter focused on `Strings` and how you can solve problems by manipulating the string.
 We used a lot of strings methods in this chapter, and here are the summary for them.
-### String Methods: 
+### Strings Methods: 
 
 ```python
 string = " Hi, I am using Python "
@@ -144,7 +144,7 @@ Counter({'or': 2, 'Counter': 1, 'module': 1, 'will': 1, 'count': 1, 'anything': 
 """
 ```
 
-2. `PrettyTable` Module
+2. `PrettyTable` Module:
     This Module is used for making nice clear tables:
 ```python
 from prettytable import PrettyTable
@@ -154,7 +154,7 @@ table.add_row([]) # To add rows as a "LIST"
 print(table)
 ```
 
-3. `string` Module
+3. `string` Module:
    Simple method made ready variable which make things easier. Some of them:
 ```python
 import string
