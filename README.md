@@ -87,9 +87,9 @@ day = date.today() # The date for this day
 
 <h1> Chapter 4 </h1>
 
-This Chapter focused on `String` and how you can solve problems by manipulatin the string.
-We used a lot of string methods in this chapter, and here is the summary for them.
-<h4> String Methods </h4>
+This Chapter focused on `Strings` and how you can solve problems by manipulating the string.
+We used a lot of strings methods in this chapter, and here are the summary for them.
+### String Methods: 
 
 ```python
 string = " Hi, I am using Python "
