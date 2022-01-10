@@ -171,4 +171,4 @@ dig = string.digits
 <hr>
 
 <h1> Chapter 5 </h1>
-
+This Chapter talked about functions
