@@ -173,13 +173,69 @@ dig = string.digits
 <h1> Chapter 5 </h1>
 
 This Chapter talked about functions, and the first reason for using or building functions is <b>reusability</b> and it make your code cleaner.
-every function should do only 1 thing.
+every function should do only one thing.
 
-### Types of Functions in Python
+## Types of Functions in Python
 
 | Type of Functions | Built in Functions | User-Defined Functions (UDFs) |
 | :---: | :---: | :---: |
 | Example           | <code> print(max(lst)) </code>   | <code> avg = lambda lst: sum(lst) / len(lst) </code> |
+
+##User-Defined Functions (UDFs) devided into two types:
+### 1. Return Functions:
+functinos have return statement and return a value.
+Also you can define a variable with and its value is the return of the function.
+####For Example
+```python
+def avg(lst):
+     return sum(lst)/len(lst)
+
+lst = [1,2,3,4,5,6,7,8,9,10]
+average_list = avg(lst)
+
+print(average_list)
+"""The output:
+    5.5
+"""
+```
+### 2. Procedure Functions:
+funtions don't return a thing, it's just make a procedure for the input maybe like adding 5 to a number or anything like that, but doesn't have a return statement.
+And you can't define a variable with value of it. Well.... you can, but it will be a none value
+####For Example
+```python
+def print_elements(lst):
+     for i in lst:
+          print(lst, end = " ")
+          
+lst = [1,2,3,4,5,6,7,8,9,10]
+elements= print_elements(lst)
+
+print(elements)
+"""The Output:
+     1 2 3 4 5 6 7 8 9 10 None
+"""
+```
+The None shows because the `print_elements` functions doesn't return any value, it's just printing elements without returning a value.
+
+
+##Scope
+
+This Chapter also talked about the `Scope`.
+It's important to understand this concept or you will have errors in your without knowing how to debugging it.
+If you defined a variable inside a function you <b>can't</b> use it outside the function.
+#### For Example:
+```python
+def avg(lst):
+     sum_of_the_list = sum(lst)
+     average = sum_of_the_list / len(lst)
+     return average
+```
+if you tried to print the `sum_of_the_list` you will get an error : `name "sum_of_the_list" is not defined`
+
+<hr>
+
+<h1> Chapter 6 </h1>
+
 
      
           
