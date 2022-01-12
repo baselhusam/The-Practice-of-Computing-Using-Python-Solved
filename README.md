@@ -178,6 +178,7 @@ every function should do only 1 thing.
 ### Types of Functions in Python
 
 | Type of Functions | Built in Functions | User-Defined Functions (UDFs) |
+| :---: | :---: | :---: |
 | Example           | print(max(lst))    | def avg(lst): |
 
 
@@ -200,12 +201,15 @@ every function should do only 1 thing.
           
           <td>
                
+               <code>
+                    
                ```python
                def avg(lst):
                     sum = sum(lst)
                     average = sum / len(lst)
                     return average
                ```
+               </code>
                
           </td>
      </tr>
