@@ -230,7 +230,7 @@ def avg(lst):
      average = sum_of_the_list / len(lst)
      return average
 ```
-if you tried to print the `sum_of_the_list` you will get an error : `name "sum_of_the_list" is not defined`.
+if you tried to print the `sum_of_the_list` you will get an error : `name "sum_of_the_list" is not defined`.<br>
 So be aware to that, if you defined a variable inside a function you can't use outside the function.
 
 <hr>
