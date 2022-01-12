@@ -181,11 +181,11 @@ every function should do only one thing.
 | :---: | :---: | :---: |
 | Example           | <code> print(max(lst)) </code>   | <code> avg = lambda lst: sum(lst) / len(lst) </code> |
 
-##User-Defined Functions (UDFs) devided into two types:
+## User-Defined Functions (UDFs) devided into two types:
 ### 1. Return Functions:
 functinos have return statement and return a value.
 Also you can define a variable with and its value is the return of the function.
-####For Example
+#### For Example
 ```python
 def avg(lst):
      return sum(lst)/len(lst)
@@ -201,7 +201,7 @@ print(average_list)
 ### 2. Procedure Functions:
 funtions don't return a thing, it's just make a procedure for the input maybe like adding 5 to a number or anything like that, but doesn't have a return statement.
 And you can't define a variable with value of it. Well.... you can, but it will be a none value
-####For Example
+#### For Example
 ```python
 def print_elements(lst):
      for i in lst:
@@ -218,7 +218,7 @@ print(elements)
 The None shows because the `print_elements` functions doesn't return any value, it's just printing elements without returning a value.
 
 
-##Scope
+## Scope
 
 This Chapter also talked about the `Scope`.
 It's important to understand this concept or you will have errors in your without knowing how to debugging it.
