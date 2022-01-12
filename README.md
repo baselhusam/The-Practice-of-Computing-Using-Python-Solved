@@ -179,7 +179,7 @@ every function should do only 1 thing.
 
 | Type of Functions | Built in Functions | User-Defined Functions (UDFs) |
 | :---: | :---: | :---: |
-| Example           | <code> print(max(lst)) </code>   | <code> def avg(lst):<br> average = sum(lst)/len(lst)<br> return avergae </code> |
+| Example           | <code> print(max(lst)) </code>   | <code> avg = lambda lst: sum(lst) / len(lst) </code> |
 
      
           
