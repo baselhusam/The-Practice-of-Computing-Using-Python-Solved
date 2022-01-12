@@ -195,7 +195,7 @@ average_list = avg(lst)
 
 print(average_list)
 """The output:
-    5.5
+   5.5
 """
 ```
 ### 2. Procedure Functions:
@@ -212,10 +212,10 @@ elements= print_elements(lst)
 
 print(elements)
 """The Output:
-     1 2 3 4 5 6 7 8 9 10 None
+   1 2 3 4 5 6 7 8 9 10 None
 """
 ```
-The None shows because the `print_elements` functions doesn't return any value, it's just printing elements without returning a value.
+The `None` shown because the `print_elements` functions doesn't return any value, it's just printing elements without returning any value.
 
 
 ## Scope
