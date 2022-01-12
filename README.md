@@ -221,8 +221,8 @@ The `None` shown because the `print_elements` functions doesn't return any value
 ## Scope
 
 This Chapter also talked about the `Scope`.
-It's important to understand this concept or you will have errors in your without knowing how to debugging it.
-If you defined a variable inside a function you <b>can't</b> use it outside the function.
+It's important to understand this concept or you will have errors in your code without knowing how to debugging it.<br>
+For Example: If you defined a variable inside a function you <b>can't</b> use it outside the function.
 #### For Example:
 ```python
 def avg(lst):
