@@ -171,4 +171,43 @@ dig = string.digits
 <hr>
 
 <h1> Chapter 5 </h1>
-This Chapter talked about functions
+
+This Chapter talked about functions, and the first reason for using or building functions is <b>reusability</b> and it make your code cleaner.
+every function should do only 1 thing.
+
+### Types of Functions in Python
+
+| Type of Functions | Built in Functions | User-Defined Functions (UDFs) |
+| Example           | print(max(lst))    | def avg(lst): |
+
+
+<table>
+     <tr> 
+          <td> Type of Functions </td>
+          <td> Built in Functions </td>
+          <td> User-Defined Functions (UDFs) </td>
+     </tr>
+     
+     <tr> 
+          <td> Example </td>
+          <td> 
+               
+               ```python
+               print(max(lst))
+               ```
+               
+          </td>
+          
+          <td>
+               
+               ```python
+               def avg(lst):
+                    sum = sum(lst)
+                    average = sum / len(lst)
+                    return average
+               ```
+               
+          </td>
+          
+    
+               
