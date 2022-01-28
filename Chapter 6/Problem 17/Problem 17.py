@@ -8,11 +8,11 @@ line_counter = 0
 
 for line in file:
     if str(line_counter) in numbers:
-        line_counter+=0
+        line_counter+= 1
         continue
     else:    
         print(line, file=output_file)
-        line_counter+=0
+        line_counter+= 1
         
 file.close()
 output_file.close()
