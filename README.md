@@ -245,9 +245,9 @@ This Chpater talked about `files` and how to work with them
 | `'r'`| read-only | Opens that file | Error |
 | `'w'`| write-only | Clears the file contents | Creates and opens a new file |
 | `'a'`| write-only | File content left intact and <br> new data appended at file's end | Creates and opens a new file
-| `'r+'`| read and write | Reads and overwrites from the file's beginning | Error |
+| `'r+'`| read and write | Reads and overwrites from the <br> file's beginning | Error |
 | `'w+'`| read and write | Clears the file contents | Creates and opens a new file |
-| `'a+'`| read and write | File content left intact and <br> read and write at file's end | Creates and open a new file |
+| `'a+'`| read and write | File content left intact and read and <br> write at file's end | Creates and open a new file |
 
      
           
