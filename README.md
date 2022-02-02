@@ -237,6 +237,17 @@ So be aware to that, if you defined a variable inside a function you can't use o
 
 <h1> Chapter 6 </h1>
 
+This Chpater talked about `files` and how to work with them
+
+### File modes
+| Mode | How opened | File Exists | File Does Not Exitst |
+| :--: | :--: | :--: | :--: |
+| `'r'`| read-only | Opens that file | Error |
+| `'w'`| write-only | Clears the file contents | Creates and opens a new file |
+| `'a'`| write-only | File content left intact and <br> new data appended at file's end | Creates and opens a new file
+| `'r+'`| read and write | Reads and overwrites from the file's beginning | Error |
+| `'w+'`| read and write | Clears the file contents | Creates and opens a new file |
+| `'a+'`| read and write | File content left intact and <br> read and write at file's end | Creates and open a new file |
 
      
           
