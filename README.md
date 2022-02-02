@@ -237,9 +237,9 @@ So be aware to that, if you defined a variable inside a function you can't use o
 
 <h1> Chapter 6 </h1>
 
-This Chpater talked about `files` and how to work with them
+This Chapter talked about `files` and how to work with them.
 
-### File modes
+### File modes:
 | Mode | How opened | File Exists | File Does Not Exitst |
 | :--: | :--: | :--: | :--: |
 | `'r'`| read-only | Opens that file | Error |
@@ -248,6 +248,11 @@ This Chpater talked about `files` and how to work with them
 | `'r+'`| read and write | Reads and overwrites from the <br> file's beginning | Error |
 | `'w+'`| read and write | Clears the file contents | Creates and opens a new file |
 | `'a+'`| read and write | File content left intact and read and <br> write at file's end | Creates and opens a new file |
+
+<h1> Chapter 7 </h1>
+
+This Chapters focused on `lists` and `tuples` and the difference between of them.
+
 
      
           
