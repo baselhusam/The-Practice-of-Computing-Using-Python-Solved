@@ -253,6 +253,9 @@ This Chapter talked about `files` and how to work with them.
 
 This Chapters focused on `lists` and `tuples` and the difference between of them.
 
+<h1> Chapter 8 </h1>
+
+In this Chapter we've just implement on functions in advanced way.
 
      
           
