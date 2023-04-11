@@ -1,6 +1,7 @@
 <h1> The-Practice-of-Computing-Using-Python-Solved </h1>
 
-In this repository I will solve  **_The Practice of Computing Using Python_** book the third edition.
+In this repository I will solve  **_The Practice of Computing Using Python_** book the third edition by William F. Punch Global Edition by Pearson. <br>
+Link of the book on [Amazon](https://www.amazon.com/Practice-Computing-Using-Python-Global/dp/1292166622).
 
 
 <h1>  Chapter 1  </h1>
